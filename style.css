@@ -9,7 +9,7 @@ body{
     font-family: 'Inter';
     font-size: 14px;
 }
-.container{
+div{
     width: 80%;
     margin: 40% 10%;
     padding: 10%;
@@ -87,7 +87,7 @@ nav a{
     color: hsl(0, 0%, 8%);
 }
 @media only screen and (min-width:900px){
-    .container{
+    div{
         width: 30%;
         margin: 20% 32%;
         padding: 5%;
