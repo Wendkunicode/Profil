@@ -84,12 +84,12 @@ nav a{
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
 }
-@media only screen and (min-width:1400px){
+@media only screen and (min-width:900px){
     .container{
         width: 30%;
         margin: 20% 32%;
         padding: 5%;
-        height: 60vh;
+        height: 100%;
      }
     
 }
