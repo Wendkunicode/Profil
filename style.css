@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsl(0, 0%, 8%);
+    font-family: 'Inter';
+    font-size: 14px;
+}
+.container{
+    width: 80%;
+    margin: 40% 10%;
+    padding: 10%;
+    height: 70vh;
+    background: hsl(0, 0%, 12%);
+    border-radius: 15px;
+
+}
+header img{
+    width: 30%;
+    border-radius: 50%;
+    margin-left: 35%;
+}
+header h2{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    margin-left: 5%;
+}
+header h4{
+    text-align:center;
+    color: hsl(75, 94%, 57%);
+    margin: 5px 0px 15px 14px;
+}
+header p{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    margin-bottom:25px;
+    font-weight: 600;
+    opacity: 70%;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    opacity: 80%;
+    margin-bottom: 15px;
+}
+.github{
+    width: 100%;
+    background: hsl(0, 0%, 20%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.frontend{
+    width: 100%;
+    background: hsl(0, 0%, 20%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.whatsapp{
+    width: 100%;
+    background: hsl(0, 0%, 20%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.telegram{
+    width: 100%;
+    background: hsl(0, 0%, 20%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.github:active, 
+.github:hover, 
+.frontend:active,
+.frontend:hover,
+.whatsapp:active,
+.whatsapp:hover,
+.telegram:active,
+.telegram:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+@media only screen and (min-width:1400px){
+    .container{
+        width: 30%;
+        margin: 20% 32%;
+        padding: 5%;
+        height: 60vh;
+     }
+    
+}
